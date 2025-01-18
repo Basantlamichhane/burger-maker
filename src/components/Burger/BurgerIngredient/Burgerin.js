@@ -7,6 +7,7 @@ class BurgerIngerdient extends Component {
     render(){
         let ingerdient;
     switch ( this.props.type) {
+        
         case('bread-bottom'):
         ingerdient = <div className='BreadBottom'></div>;
         break;
@@ -34,6 +35,7 @@ class BurgerIngerdient extends Component {
             ingerdient = null;
     }
     return ingerdient;
+    
 }
 }
 BurgerIngerdient.propTypes = {

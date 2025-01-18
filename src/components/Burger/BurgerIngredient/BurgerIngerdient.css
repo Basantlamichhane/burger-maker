@@ -1,6 +1,6 @@
-.BreadBottom{
-    height: 130px;
-    width: 600px;
+        .BreadBottom{
+    height: 15%;
+    width: 80%;
     background-color:linear-gradient(#F08E4A,#e27b36) ;
     border-radius: 0 0 300px 300px;
     box-shadow: inset -15px 200px #c15711;
@@ -8,8 +8,8 @@
 }
 
 .BreadTop{
-    height: 130px;
-    width: 600px;
+    height: 15%;
+    width: 80%;
     background-color:linear-gradient(#F08E4A,#e27b36);
     border-radius:500px 500px 0 0;
     box-shadow: inset -150px 200px #c15711;
@@ -18,7 +18,7 @@
 }
 .Seeds1{ 
     width: 10%;
-    height:15%;
+    height:25%;
     position:absolute;
     background-color: white;
     left: 30%;
